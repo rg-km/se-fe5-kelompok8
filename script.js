@@ -21,11 +21,11 @@ let bodyImg = new Image();
 let tailImg = new Image();
 let appleImg = new Image();
 let lifeImg = new Image();
-headImg.src = 'head.png';
-bodyImg.src = 'body.png';
-tailImg.src = 'tail.png';
-appleImg.src = 'apple.png';
-lifeImg.src = 'life.png';
+headImg.src = 'assets/head.png';
+bodyImg.src = 'assets/body.png';
+tailImg.src = 'assets/tail.png';
+appleImg.src = 'assets/apple.png';
+lifeImg.src = 'assets/life.png';
 
 let level = 1;
 let life = 3;
