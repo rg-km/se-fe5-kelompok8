@@ -1,0 +1,16 @@
+body{
+    background-color: #FFEFF2;
+}
+table{
+    margin-left: 15%;
+}
+
+table tr td{
+    padding: 50px;
+}
+
+h2{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 40px;
+}
