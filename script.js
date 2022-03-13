@@ -104,7 +104,7 @@ function updateLifeHtml() {
 	lifeElement.innerHTML = '';
 	for (var i = 0; i < life; i++) {
 		let node = document.createElement('IMG');
-		node.src = 'life.png';
+		node.src = 'assets/life.png';
 		lifeElement.appendChild(node);
 		console.log(life);
 	}
