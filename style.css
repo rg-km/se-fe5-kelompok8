@@ -1,0 +1,13 @@
+.judul h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.table-nilai .kotak canvas{
+    margin-left: 25%;
+}
+
+.table-nilai .nilai canvas{
+    margin-left: 50%;
+    
+}
