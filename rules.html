@@ -1,51 +1,105 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/rules.css">
-    <script type="text/javascript" src="js/rules.js"></script>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,900&display=swap" rel="stylesheet">
+
+    
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/rules.css">
+
     <title>Rules Snake Game</title>
-</head>
-<body>
-    <div class="slideshow-container">
+  </head>
+  <body>
+  
 
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 4</div>
-          <img src="assets/Controls.jpg" style="width:100%">
-          <div class="text">Caption Text</div>
-        </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 4</div>
-          <img src="assets/rule1.jpg" style="width:100%">
-          <div class="text">Caption Two</div>
-        </div>
-      
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 4</div>
-          <img src="assets/rule2.jpg" style="width:100%">
-          <div class="text">Caption Three</div>
-        </div>
+  <div class="content">
+    
+    <div class="container">
+      <h2 class="my-5 text-center">Rules Snake Game</h2>
 
-        <div class="mySlides fade">
-            <div class="numbertext">4 / 4</div>
-            <img src="assets/rule3.jpg" style="width:100%">
-        </div>
-      
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <div class="d-flex carousel-nav">
+          <a href="#" class="col activite">Control</a>
+        <a href="#" class="col">First Rules</a>
+        <a href="#" class="col">Second Rules</a>
+        <a href="#" class="col">Third Rules</a>
       </div>
-      <br>
-      
-      <!-- The dots/circles -->
-      <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+
+
+      <div class="owl-carousel owl-1">
+
+        <div class="media-29101 d-md-flex w-100">
+          <div class="img">
+            <img src="assets/Controls.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="text">
+            <a class="category d-block mb-4" href="#">Control &mdash; Game</a>
+            <h2><a href="#">Control menggerakkan ular</a></h2>
+            <p>Kamu bisa menggerakkan game dalam permain dengan menggunakan tombol arah atas, bawah, kanan, da kiri yang terdapat pada keyboard.</p>
+          </div>
+        </div> <!-- .item -->
+
+        <div class="media-29101 d-md-flex w-100">
+          <div class="img">
+            <img src="assets/rule1.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="text">
+            <a class="category d-block mb-4" href="#">Makanan Ular &mdash; Game</a>
+            <h2><a href="#">Makanan Ular</a></h2>
+            <p>Apel adalah makanan ular, ketika ular memakan apel maka tubuh ular akan semakin bertambah panjang dan akan mendapatkan point. Kumpulkan point sebanyak-banyaknya.</p>
+          </div>
+        </div> <!-- .item -->
+
+        <div class="media-29101 d-md-flex w-100">
+          <div class="img">
+            <img src="assets/rule2.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="text">
+            <a class="category d-block mb-4" href="#">Nyawa Ular &mdash; Game</a>
+            <h2><a href="#">Love Hati atau Nyawa</a></h2>
+            <p>Nyawa membuat ular akan tetap hidup nyawa akan berkurang ketika mengenai rintangan. Nyawa bisa didapatkan pada saat permainan sudah dimulai lebih tepatnya pada saat skor point kalian mencapai bilangan prima seperti 2, 3, 5, dst.</p>
+          </div>
+        </div> <!-- .item -->
+
+        <div class="media-29101 d-md-flex w-100">
+            <div class="img">
+              <img src="assets/rule3.jpg" alt="Image" class="img-fluid">
+            </div>
+            <div class="text">
+              <a class="category d-block mb-4" href="#">Rintangan Ular &mdash; Game</a>
+              <h2><a href="#">Rintangan Dalam Game</a></h2>
+              <p>Rintangan dibuat untuk menambah kesulitan permainan, setiap level akan berbeda rintangannya. Apabila ular mengenai rintangan maka nyawa ular akan berkurang satu. Level akan meningkan setiap mpoint berkelipatan 5.</p>
+            </div>
+          </div> <!-- .item -->
+
+        
+
       </div>
-</body>
+    </div>
+  </div>
+    
+    
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
