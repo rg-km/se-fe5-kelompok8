@@ -11,8 +11,11 @@ Untuk melihat hasil codingan di atas klik [disini link](https://rg-km.github.io/
 | ![landing-page](https://user-images.githubusercontent.com/30518462/158132194-8b17a21f-7a2d-401a-ba74-c9795e225b23.png) **Landing Page** |
 | :--: | 
 | ![Kontribusi](https://user-images.githubusercontent.com/30518462/158132479-3cf21fda-9462-49ba-9d8a-277f8be3366f.png) **Credit Page** | 
-|![rules](https://user-images.githubusercontent.com/30518462/158132693-54cb79d2-ebe1-444b-a75e-1bc8732f3b8b.png) **Rules** | 
+|![rules](https://user-images.githubusercontent.com/30518462/158132693-54cb79d2-ebe1-444b-a75e-1bc8732f3b8b.png) **Rules Page** | 
+|![rules](https://user-images.githubusercontent.com/30518462/158133639-353128ee-9d26-49b9-b004-b4eb3e9e3fef.png) **Game Page** | 
 <!-- |   -->
+
+![ingame](https://user-images.githubusercontent.com/30518462/158133639-353128ee-9d26-49b9-b004-b4eb3e9e3fef.png)
 
 ### Contributors ✨
 
