@@ -15,8 +15,6 @@ Untuk melihat hasil codingan di atas klik [disini link](https://rg-km.github.io/
 |![rules](https://user-images.githubusercontent.com/30518462/158133639-353128ee-9d26-49b9-b004-b4eb3e9e3fef.png) **Game Page** | 
 <!-- |   -->
 
-![ingame](https://user-images.githubusercontent.com/30518462/158133639-353128ee-9d26-49b9-b004-b4eb3e9e3fef.png)
-
 ### Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
