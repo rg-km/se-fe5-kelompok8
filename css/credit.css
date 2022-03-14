@@ -3,6 +3,7 @@ body{
 }
 table{
     margin-left: 15%;
+    margin-top: 5%;
 }
 
 table tr td{
@@ -13,4 +14,9 @@ h2{
     text-align: center;
     margin-top: 10%;
     font-size: 40px;
+}
+
+.header {
+    background: rgb(255,181,138);
+    background: linear-gradient(90deg, rgba(255,181,138,1) 0%, rgba(255,0,101,1) 100%);
 }
